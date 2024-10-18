@@ -44,6 +44,8 @@ Sonic Runner Game is an endless runner where you control Sonic as he automatical
 - Smooth animations powered by KAPLAY.js.
 - Supports both desktop and mobile (with some known issues on mobile).
 
+Here is the updated setup instruction without the step to open the `index.html` file directly:
+
 ---
 
 ## 📦 Setup Instructions
@@ -58,18 +60,18 @@ Sonic Runner Game is an endless runner where you control Sonic as he automatical
    cd Sonic-Runner-Game
    ```
 
-3. Open the `index.html` file in your browser to run the game locally:
+3. Install the required dependencies:
    ```bash
-   open index.html
+   npm install
    ```
 
-4. To run the game in a production build, use a simple local server:
+4. Run the app locally:
    ```bash
-   npm install -g serve
-   serve
+   npm run dev
    ```
 
----
+--- 
+
 
 ## 🚧 Known Issues
 
